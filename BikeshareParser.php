@@ -86,7 +86,7 @@ class BikeshareParser
 		);
 		
 		$context = stream_context_create($opts);
-		$loginPage = file_get_contents("https://capitalbikeshare.com/login", false, $context);
+		$loginPage = file_get_contents("https://citibikenyc.com/login", false, $context);
 
 		// Destroy username, password and data
 		unset($this->username);
