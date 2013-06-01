@@ -1,11 +1,7 @@
-Capital Bikeshare API
+Citibike API
 ============================
 
-Scrapes your member information from http://capitalbikeshare.com and outputs it nicely formatted as JSON
-
-Example
--------------------------
-Online version available at https://bikeshare.dotsquare.dk/rentals
+Scrapes your member information from http://citibikenyc.com and outputs it nicely formatted as JSON
 
 Features
 -------------------------
@@ -26,5 +22,5 @@ Example output
   }
 ]
 ```
-
-Mathias Hansen - <me@codemonkey.io>
+Based on code by Mathias Hansen - <me@codemonkey.io>
+Adapted for NYC by Mark Egerman - <egerman@gmail.com>
