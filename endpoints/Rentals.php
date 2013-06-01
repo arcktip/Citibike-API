@@ -4,7 +4,7 @@ class Rentals extends BikeshareParser
 	public function run()
 	{
 		$this->authenticate();
-		$page = $this->request('https://capitalbikeshare.com/member/rentals');
+		$page = $this->request('https://citibikenyc.com/member/rentals');
 		$html = str_get_html($page);
 		$keys = array(
 			'start_station',
