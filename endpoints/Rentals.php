@@ -83,8 +83,12 @@ class Rentals extends BikeshareParser
 			{
 				$seconds += $value;
 			}
+			elseif ($unit == '' || $unit == '\n')
+			{
+			}			
 			else
 			{
+				echo "Unit is " . $unit . "\n";
 				throw new APIException('Internal error: Unknown unit "'. $unit .'"');
 			}
 		}
