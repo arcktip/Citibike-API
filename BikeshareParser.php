@@ -66,13 +66,13 @@ class BikeshareParser
 	{
 		// Validate login data first
 		$this->validateLogin();
+
 	
 		// Login to Bikeshare
 		$data = array(
-			'username' => $this->username,
-			'password' => $this->password,
+			'subscriberUsername' => $this->username,
+			'subscriberPassword' => $this->password,
 		);
-		
 		// Post and authenticate to Bikesahre
 		$data = http_build_query($data); // Convert array to http query string
 		$opts = array(
